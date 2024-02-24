@@ -1,0 +1,827 @@
+@charset "UTF-8";
+
+html, body {
+	margin: 0px;
+	width: 100%;
+	height: 100%;
+	background-color: #000000;
+	background-image: url(background.jpg);
+	background-repeat: no-repeat;
+	overflow: hidden;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{margin:0;padding:0} 
+
+#domain {
+	display: block;
+	font-size: 3.5em;
+	color: #ffffff;
+    font-family: "Saira Stencil One", Sans-serif;
+    font-weight: 200;
+    z-index: 100;
+    margin-bottom: 0px;    
+}
+
+/*文字样式*/
+.STYLE {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:link {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:active {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #ffffff;
+	font-size: 12px;
+	text-decoration: none;
+}
+
+/*中间按钮*/
+/*外框*/
+.iconc {
+	fill: none;
+}
+
+a:hover .iconc {
+	fill: none;
+}
+/*背景*/
+.icond {
+	fill: #C01013;
+	opacity: 0;
+	transition: all 0.5s linear;
+}
+
+a:hover .icond {
+	fill: #C01013;
+	opacity: 0;
+	transition: all 0.5s;
+}
+/*中文*/
+.icone {
+	fill: #ffffff;
+	fill-rule: nonzero;
+	opacity: 0;
+	transition: all 0.5s linear;
+}
+
+a:hover .icone {
+	fill: #ffffff;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s;
+}
+/*图形*/
+.iconf {
+	fill: #ffffff;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+a:hover .iconf {
+	fill: #FE9B00;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s;
+}
+/*英文*/
+.icong {
+	fill: #ffffff;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+a:hover .icong {
+	fill: #ffffff;
+	fill-rule: nonzero;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+/*底部图形信息*/
+.footer0 {
+	fill: #ffffff;
+	transition: all 1s linear;
+}
+
+a:hover .footer0 {
+	fill: #ffffff;
+	transition: all 2s;
+}
+
+.footer1 {
+	fill: #ffffff;
+	transition: all 1s linear;
+}
+
+a:hover .footer1 {
+	fill: #C01013;
+	transition: all 2s;
+}
+
+.footer2 {
+	fill: #ffffff;
+	transition: all 1s linear;
+}
+
+a:hover .footer2 {
+	fill: #99FFFF;
+	transition: all 2s;
+}
+
+.footer3 {
+	fill: #ffffff;
+	transition: all 1s linear;
+}
+
+a:hover .footer3 {
+	fill: #FE9B00;
+	transition: all 2s;
+}
+
+.footer4 {
+	fill: #ffffff;
+	transition: all 1s linear;
+	fill-rule: nonzero
+}
+
+a:hover .footer4 {
+	fill: #00ACED;
+	fill-rule: nonzero;
+	transition: all 2s;
+}
+
+.footer5 {
+	fill: #ffffff;
+	transition: all 1s linear;
+}
+
+a:hover .footer5 {
+	fill: #E62129;
+	transition: all 2s;
+}
+
+.footer6 {
+	fill: #ffffff;
+	transition: all 1s linear;
+}
+
+a:hover .footer6 {
+	fill: #2EC100;
+	transition: all 2s;
+}
+
+.logo0 {
+	fill: white;
+}
+
+.logo1 {
+	fill: #FFFFFF;
+	fill-rule: nonzero;
+	transition: all 0.5s linear;
+}
+
+.logo2 {
+	fill: #FCC141;
+	fill-rule: nonzero;
+	transition: all 0.5s linear;
+}
+
+.icon0 {
+	fill: none;
+}
+
+.iconx {
+	fill: #FFFFFF;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+.icona {
+	fill: #FFFFFF;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+.iconb {
+	fill: #FE9B00;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+.footer0 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+}
+
+.footer1 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+}
+
+.footer2 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+}
+
+.footer3 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+}
+
+.footer4 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+	fill-rule: nonzero
+}
+
+.footer5 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+}
+
+.footer6 {
+	fill: #FFFFFF;
+	transition: all 1s linear;
+}
+
+a:hover .logo1 {
+	fill: #FCC141;
+	fill-rule: nonzero;
+	transition: all 0.5s;
+}
+
+a:hover .logo2 {
+	fill: #FFFFFF;
+	fill-rule: nonzero;
+	transition: all 0.5s;
+}
+
+a:hover .iconx {
+	fill: #FE9B00;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+a:hover .icona {
+	fill: #FFFFFF;
+	opacity: 0;
+	transition: all 0.5s;
+}
+
+a:hover .iconb {
+	fill: #FE9B00;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s linear;
+}
+
+a:hover .footer0 {
+	fill: #FFFFFF;
+	transition: all 2s;
+}
+
+a:hover .footer1 {
+	fill: #FF0000;
+	transition: all 2s;
+}
+
+a:hover .footer2 {
+	fill: #99FFFF;
+	transition: all 2s;
+}
+
+a:hover .footer3 {
+	fill: #FE9B00;
+	transition: all 2s;
+}
+
+a:hover .footer4 {
+	fill: #00ACED;
+	fill-rule: nonzero;
+	transition: all 2s;
+}
+
+a:hover .footer5 {
+	fill: #E62129;
+	transition: all 2s;
+}
+
+a:hover .footer6 {
+	fill: #2EC100;
+	transition: all 2s;
+}
+
+.logo {
+	width: 300px;
+	height: 331px;
+}
+
+
+.fa-qq:before {
+    font-size: 54px;
+}
+
+.fa-envelope:before {
+    font-size: 60px;
+}
+
+.fa-money:before {
+    font-size: 60px;
+}
+
+.fa-phone-square:before {
+    font-size: 56px;
+}
+
+.fa-phone-square {
+    transform: translateY(-7%);
+}
+
+.fa-envelope {
+    transform:translateY(-7%);
+}
+
+.fa-money {
+    transform:translateY(-7%);
+}
+.fa-qq {
+    transform:translateY(-7%);
+}
+#Logo {
+    z-index: 99;
+}
+
+#mune {
+    margin-top: 20px;
+    z-index: 99;
+}
+
+table {
+    position: relative;
+    z-index: 99;
+}
+
+.fa {
+    color:#ffffff;
+    transition: all 0.5s;
+}
+
+.fa:hover {
+	color: #FE9B00;
+	fill-rule: nonzero;
+	opacity: 1;
+	transition: all 0.5s;
+}
+
+#footer {
+	position: absolute;
+	width: 100%;
+	height: 10px;
+	bottom: 25px;
+	text-align: center;
+	z-index: 99;
+}
+
+#Rights {
+	position: absolute;
+	width: 100%;
+	height: 25px;
+	bottom: 35px;
+	text-align: center;
+	z-index: 99;
+}
+
+#Button-L01 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: -252.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L02 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: -187.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L03 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: -122.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L04 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: -57.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L05 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: 7.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L06 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: 72.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L07 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: 137.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-L08 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	left: 25px;
+	top: 50%;
+	margin-top: 202.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R01 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: -252.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R02 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: -187.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R03 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: -122.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R04 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: -57.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R05 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: 7.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R06 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: 72.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R07 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: 137.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-R08 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	right: 25px;
+	top: 50%;
+	margin-top: 202.5px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-www {
+	display: inline;
+	overflow: hidden;
+    margin: 0 15px 0 0;
+	z-index: 98;
+}
+
+#Button-mail {
+    display: inline;
+    margin: 0 15px 0 0;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-ftp {
+    display: inline;
+	overflow: hidden;
+    margin: 0 15px 0 0;
+	z-index: 98;
+}
+
+#Button-nas {
+    display: inline;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-vpn {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	top: 45%;
+	margin-left: 0px;
+	margin-top: 160px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-erp {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	top: 45%;
+	margin-left: 90px;
+	margin-top: 160px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-oa {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	top: 45%;
+	margin-left: 180px;
+	margin-top: 160px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-gps {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	top: 45%;
+	margin-left: 270px;
+	margin-top: 160px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+#Button-code {
+	position: absolute;
+	width: 90px;
+	height: 90px;
+	left: 50%;
+	top: 45%;
+	margin-left: 270px;
+	margin-top: 160px;
+	overflow: hidden;
+	z-index: 98;
+}
+
+@-webkit-keyframes rotate {
+	from {
+		-webkit-transform: rotate(0deg)
+	}
+
+	to {
+		-webkit-transform: rotate(360deg)
+	}
+}
+
+@-moz-keyframes rotate {
+	from {
+		-moz-transform: rotate(0deg)
+	}
+
+	to {
+		-moz-transform: rotate(360deg)
+	}
+}
+
+@-o-keyframes rotate {
+	from {
+		-o-transform: rotate(0deg)
+	}
+
+	to {
+		-o-transform: rotate(360deg)
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg)
+	}
+
+	to {
+		transform: rotate(360deg)
+	}
+}
+
+@keyframes beat {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(0.95);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@media (max-width: 992px) {
+  /*手机版*/
+	
+	#earth {
+		position: absolute;
+		height: 1000px;
+		bottom: 0px;
+		left: 50%;
+		margin-bottom: -400px;
+		margin-left: -700px;
+		z-index: 1;
+		overflow: hidden;
+		-webkit-transition-property: -webkit-transform;
+		-webkit-transition-duration: 1s;
+		-moz-transition-property: -moz-transform;
+		-moz-transition-duration: 1s;
+		-webkit-animation: rotate 60s linear infinite;
+		-moz-animation: rotate 60s linear infinite;
+		-o-animation: rotate 60s linear infinite;
+		animation: rotate 60s linear infinite;
+	}
+
+	#moon {
+		position: absolute;
+		height: 200px;
+		top: 0px;
+		right: 0px;
+		margin-top: 50px;
+		margin-right: 50px;
+		z-index: 1;
+		overflow: hidden;
+		-webkit-transition-property: -webkit-transform;
+		-webkit-transition-duration: 1s;
+		-moz-transition-property: -moz-transform;
+		-moz-transition-duration: 1s;
+		-webkit-animation: rotate 300s linear infinite;
+		-moz-animation: rotate 300s linear infinite;
+		-o-animation: rotate 300s linear infinite;
+		animation: rotate 300s linear infinite;
+	}
+}
+
+@media (min-width: 992px) {
+  /*电脑版*/
+	
+	#earth {
+		position: absolute;
+		height: 1000px;
+		bottom: 0px;
+		left: 0px;
+		margin-bottom: -250px;
+		margin-left: -550px;
+		z-index: 1;
+		overflow: hidden;
+		-webkit-transition-property: -webkit-transform;
+		-webkit-transition-duration: 1s;
+		-moz-transition-property: -moz-transform;
+		-moz-transition-duration: 1s;
+		-webkit-animation: rotate 60s linear infinite;
+		-moz-animation: rotate 60s linear infinite;
+		-o-animation: rotate 60s linear infinite;
+		animation: rotate 60s linear infinite;
+	}
+
+	#moon {
+		position: absolute;
+		height: 200px;
+		top: 0px;
+		right: 0px;
+		margin-top: 50px;
+		margin-right: 50px;
+		z-index: 1;
+		overflow: hidden;
+		-webkit-transition-property: -webkit-transform;
+		-webkit-transition-duration: 1s;
+		-moz-transition-property: -moz-transform;
+		-moz-transition-duration: 1s;
+		-webkit-animation: rotate 300s linear infinite;
+		-moz-animation: rotate 300s linear infinite;
+		-o-animation: rotate 300s linear infinite;
+		animation: rotate 300s linear infinite;
+	}
+}
